@@ -16,7 +16,6 @@ class CoinsTest < ApplicationSystemTestCase
 
     fill_in "Acronym", with: @coin.acronym
     fill_in "Description", with: @coin.description
-    fill_in "String", with: @coin.string
     fill_in "Url image", with: @coin.url_image
     click_on "Create Coin"
 
@@ -30,7 +29,6 @@ class CoinsTest < ApplicationSystemTestCase
 
     fill_in "Acronym", with: @coin.acronym
     fill_in "Description", with: @coin.description
-    fill_in "String", with: @coin.string
     fill_in "Url image", with: @coin.url_image
     click_on "Update Coin"
 

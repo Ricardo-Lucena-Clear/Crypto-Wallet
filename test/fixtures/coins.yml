@@ -3,11 +3,9 @@
 one:
   description: MyString
   acronym: MyString
-  string: MyString
   url_image: MyString
 
 two:
   description: MyString
   acronym: MyString
-  string: MyString
   url_image: MyString

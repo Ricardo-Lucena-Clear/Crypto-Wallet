@@ -17,7 +17,7 @@ class CoinsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create coin" do
     assert_difference('Coin.count') do
-      post coins_url, params: { coin: { acronym: @coin.acronym, description: @coin.description, string: @coin.string, url_image: @coin.url_image } }
+      post coins_url, params: { coin: { acronym: @coin.acronym, description: @coin.description, url_image: @coin.url_image } }
     end
 
     assert_redirected_to coin_url(Coin.last)
@@ -34,7 +34,7 @@ class CoinsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update coin" do
-    patch coin_url(@coin), params: { coin: { acronym: @coin.acronym, description: @coin.description, string: @coin.string, url_image: @coin.url_image } }
+    patch coin_url(@coin), params: { coin: { acronym: @coin.acronym, description: @coin.description, url_image: @coin.url_image } }
     assert_redirected_to coin_url(@coin)
   end
 
