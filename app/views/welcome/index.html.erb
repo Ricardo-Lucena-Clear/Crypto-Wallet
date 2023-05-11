@@ -1,11 +1,7 @@
 <h1>Seja Bem-vindo!!</h1>
 <p><strong>Data de Hoje: <%=data_br(Date.today)%></strong></p>
 
-<ul> 
-    <li>
-    <%= link_to "Cadastro de Moedas", coins_path %>
-    </li>
-</ul>
+<%= render "menu"%>
 <p>
     Você está em ambiente de <strong><%= ambiente_rails%></strong>
 </p>
