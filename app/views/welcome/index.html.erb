@@ -1,20 +1,8 @@
-<p><%= link_to 'Português', '/?locale=pt-BR' %></p>
-<p><%= link_to 'Inglês', '/?locale=en' %></p>
-
-<h1>Seja Bem-vindo!!</h1>
-<p>O idioma usado nessa aplicação é:<strong> <%=t("actual_locale")%></p></strong>
-<p><strong>Data de Hoje: <%= l(Date.today) %></strong></p>
-<p><%= t('hello') %></p>
-
-<%= render "menu"%>
-<p>
-    Você está em ambiente de <strong><%= ambiente_rails%></strong>
-</p>
-
-<p>
-   Eu sou uma variavel de instancia/sessão <strong><%= @meu_nome%></strong>
-</p>
-
-<p>
-   Meu curso é o de <strong><%= @curso%></strong>
-</p>
+<div class="jumbotron">
+ <h1 class="display-4">Seja Bem-Vindo!</h1>
+ <p class="lead">Esse é o Crypto Wallet, um app para você cadastrar e
+acompanhar tudo sobre as suas criptomoedas.</p>
+ <hr class="my-4">
+ <p>Para começar, selecione uma das opções abaixo:</p>
+ <%= render "menu"%>
+</div>   
