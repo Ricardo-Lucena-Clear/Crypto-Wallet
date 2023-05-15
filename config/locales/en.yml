@@ -36,10 +36,12 @@ track everything about your cryptocurrencies."
   selecao: "To get started, select one of the options below:"
   welcome: "Welcome"
   hello: "Hello world"
+  confirm: "Are you sure?"
   links:
     edit: "Edit"
     show: "Show"
     delete: "Delete"
+    new: "New"
 
 
 
