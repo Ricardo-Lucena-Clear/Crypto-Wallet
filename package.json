@@ -1,5 +1,13 @@
 {
   "name": "crypt_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "3.3.1",
+    "notify-js-legacy": "0.4.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Ricardo-Lucena-Clear/Crypto-Wallet.git",
+  "author": "Ricardo-Lucena-Clear <ricardo.lucena.clear@gmail.com>",
+  "license": "MIT"
 }
