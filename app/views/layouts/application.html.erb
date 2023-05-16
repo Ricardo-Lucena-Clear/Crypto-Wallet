@@ -15,13 +15,14 @@
   <body>
   <div class="container-fluid">
  <ul class="nav justify-content-end">
- <li class="nav-item">
- <%= link_to 'Português', root_path(locale: 'pt-BR'),
-class:"nav-link" %>
+ <li>
+  <%= link_to "[Home]", root_path, class:"nav-link"%>
  </li>
  <li class="nav-item">
- <%= link_to 'English', root_path(locale: 'en'), class:"nav-link"
-%>
+ <%= link_to 'Português', root_path(locale: 'pt-BR'),class:"nav-link" %>
+ </li>
+ <li class="nav-item">
+ <%= link_to 'English', root_path(locale: 'en'), class:"nav-link"%>
  </li>
  </ul>
  <%= yield %>
